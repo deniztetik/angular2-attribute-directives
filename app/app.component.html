@@ -6,3 +6,6 @@
   <input type="radio" name="colors" (click)="color='cyan'">Cyan
 </div>
 <p [myHighlight]="color">Highlight Me!</p>
+<p [myHighlight]="color" [defaultColor]="'violet'">
+  Highlight me too!
+</p>
